@@ -146,7 +146,8 @@ module.exports = function expoSpmPlugin(context) {
           react,
           frameworkSearchPath,
           outDir,
-          codegenPkgPath
+          codegenPkgPath,
+          pod.podspecDir
         );
         if (e != null) {
           packageDependencies.push(e.packageDep);
